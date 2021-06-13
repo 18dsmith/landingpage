@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url(../img/showcase.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#section-a {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#section-a p {
+    font-size: 27px;
+    padding: 2vh;
+    background-color: rgb(154, 69, 35);
+}
+
+#showcase h1 {
+    font-size: 50px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: whitesmoke 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: whitesmoke;
+    color: black;
+    transition: 0.3s;
+}
+
+#section-b {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#section-b p {
+    font-size: 20px;
+    padding: 2vh;
+    background-color: rgb(154, 69, 35);
+}
+
+#section-c {
+    display: flex;
+    background: rgb(154, 69, 35);
+    color: whitesmoke;
+    text-align: center;
+}
+
+#section-c div {
+    padding: 20px;
+    width: 33vw;
+}
